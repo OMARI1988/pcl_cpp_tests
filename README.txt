@@ -1,4 +1,3 @@
-# pcl_cpp_tests
 To add a new file
 
 - create an empty file here and call foo.cpp
