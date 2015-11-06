@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omari/c++/pcl
+CMAKE_SOURCE_DIR = /home/omari/c++/pcl_cpp_tests
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omari/c++/pcl/build
+CMAKE_BINARY_DIR = /home/omari/c++/pcl_cpp_tests/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/alignment_prerejective.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/omari/c++/pcl/build
 CMakeFiles/alignment_prerejective.dir/all:
 	$(MAKE) -f CMakeFiles/alignment_prerejective.dir/build.make CMakeFiles/alignment_prerejective.dir/depend
 	$(MAKE) -f CMakeFiles/alignment_prerejective.dir/build.make CMakeFiles/alignment_prerejective.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl_cpp_tests/build/CMakeFiles  1
 	@echo "Built target alignment_prerejective"
 .PHONY : CMakeFiles/alignment_prerejective.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/alignment_prerejective.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/alignment_prerejective.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl_cpp_tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/alignment_prerejective.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl_cpp_tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/alignment_prerejective.dir/rule
 
 # Convenience name for target.
@@ -94,7 +94,7 @@ clean: CMakeFiles/alignment_prerejective.dir/clean
 CMakeFiles/cloud_viewer.dir/all:
 	$(MAKE) -f CMakeFiles/cloud_viewer.dir/build.make CMakeFiles/cloud_viewer.dir/depend
 	$(MAKE) -f CMakeFiles/cloud_viewer.dir/build.make CMakeFiles/cloud_viewer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl_cpp_tests/build/CMakeFiles  2
 	@echo "Built target cloud_viewer"
 .PHONY : CMakeFiles/cloud_viewer.dir/all
 
@@ -104,9 +104,9 @@ all: CMakeFiles/cloud_viewer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cloud_viewer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl_cpp_tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cloud_viewer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl_cpp_tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/cloud_viewer.dir/rule
 
 # Convenience name for target.
@@ -129,7 +129,7 @@ clean: CMakeFiles/cloud_viewer.dir/clean
 CMakeFiles/interactive_icp.dir/all:
 	$(MAKE) -f CMakeFiles/interactive_icp.dir/build.make CMakeFiles/interactive_icp.dir/depend
 	$(MAKE) -f CMakeFiles/interactive_icp.dir/build.make CMakeFiles/interactive_icp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl_cpp_tests/build/CMakeFiles  3
 	@echo "Built target interactive_icp"
 .PHONY : CMakeFiles/interactive_icp.dir/all
 
@@ -139,9 +139,9 @@ all: CMakeFiles/interactive_icp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/interactive_icp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl_cpp_tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/interactive_icp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl_cpp_tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/interactive_icp.dir/rule
 
 # Convenience name for target.
@@ -164,7 +164,7 @@ clean: CMakeFiles/interactive_icp.dir/clean
 CMakeFiles/iter_closest_point.dir/all:
 	$(MAKE) -f CMakeFiles/iter_closest_point.dir/build.make CMakeFiles/iter_closest_point.dir/depend
 	$(MAKE) -f CMakeFiles/iter_closest_point.dir/build.make CMakeFiles/iter_closest_point.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl_cpp_tests/build/CMakeFiles  4
 	@echo "Built target iter_closest_point"
 .PHONY : CMakeFiles/iter_closest_point.dir/all
 
@@ -174,9 +174,9 @@ all: CMakeFiles/iter_closest_point.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/iter_closest_point.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl_cpp_tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/iter_closest_point.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl_cpp_tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/iter_closest_point.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ clean: CMakeFiles/iter_closest_point.dir/clean
 CMakeFiles/resampling.dir/all:
 	$(MAKE) -f CMakeFiles/resampling.dir/build.make CMakeFiles/resampling.dir/depend
 	$(MAKE) -f CMakeFiles/resampling.dir/build.make CMakeFiles/resampling.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl_cpp_tests/build/CMakeFiles  5
 	@echo "Built target resampling"
 .PHONY : CMakeFiles/resampling.dir/all
 
@@ -209,9 +209,9 @@ all: CMakeFiles/resampling.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/resampling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl_cpp_tests/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/resampling.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/omari/c++/pcl_cpp_tests/build/CMakeFiles 0
 .PHONY : CMakeFiles/resampling.dir/rule
 
 # Convenience name for target.

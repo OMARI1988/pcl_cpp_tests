@@ -5,3 +5,7 @@ To add a new file
 - add it to the CMakeLists.txt
 add_executable (foo foo.cpp)
 target_link_libraries (foo ${PCL_LIBRARIES})
+
+cd build
+cmake ..
+make

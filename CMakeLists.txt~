@@ -23,5 +23,5 @@ target_link_libraries (iter_closest_point ${PCL_LIBRARIES})
 add_executable (interactive_icp interactive_icp.cpp)
 target_link_libraries (interactive_icp ${PCL_LIBRARIES})
 
-add_executable (alignment_prerejective alignment_prerejective.cpp)
-target_link_libraries (alignment_prerejective ${PCL_LIBRARIES})
+#add_executable (alignment_prerejective alignment_prerejective.cpp)
+#target_link_libraries (alignment_prerejective ${PCL_LIBRARIES})

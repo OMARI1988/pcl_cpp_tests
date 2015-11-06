@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omari/c++/pcl
+CMAKE_SOURCE_DIR = /home/omari/c++/pcl_cpp_tests
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omari/c++/pcl/build
+CMAKE_BINARY_DIR = /home/omari/c++/pcl_cpp_tests/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cloud_viewer.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/cloud_viewer.dir/flags.make
 
 CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o: CMakeFiles/cloud_viewer.dir/flags.make
 CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o: ../cloud_viewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl_cpp_tests/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o -c /home/omari/c++/pcl/cloud_viewer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o -c /home/omari/c++/pcl_cpp_tests/cloud_viewer.cpp
 
 CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/omari/c++/pcl/cloud_viewer.cpp > CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/omari/c++/pcl_cpp_tests/cloud_viewer.cpp > CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.i
 
 CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/omari/c++/pcl/cloud_viewer.cpp -o CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/omari/c++/pcl_cpp_tests/cloud_viewer.cpp -o CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.s
 
 CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o.requires:
 .PHONY : CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o.requires
@@ -174,6 +174,6 @@ CMakeFiles/cloud_viewer.dir/clean:
 .PHONY : CMakeFiles/cloud_viewer.dir/clean
 
 CMakeFiles/cloud_viewer.dir/depend:
-	cd /home/omari/c++/pcl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omari/c++/pcl /home/omari/c++/pcl /home/omari/c++/pcl/build /home/omari/c++/pcl/build /home/omari/c++/pcl/build/CMakeFiles/cloud_viewer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/omari/c++/pcl_cpp_tests/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omari/c++/pcl_cpp_tests /home/omari/c++/pcl_cpp_tests /home/omari/c++/pcl_cpp_tests/build /home/omari/c++/pcl_cpp_tests/build /home/omari/c++/pcl_cpp_tests/build/CMakeFiles/cloud_viewer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cloud_viewer.dir/depend
 

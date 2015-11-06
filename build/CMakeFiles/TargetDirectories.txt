@@ -1,5 +1,5 @@
-/home/omari/c++/pcl/build/CMakeFiles/alignment_prerejective.dir
-/home/omari/c++/pcl/build/CMakeFiles/cloud_viewer.dir
-/home/omari/c++/pcl/build/CMakeFiles/interactive_icp.dir
-/home/omari/c++/pcl/build/CMakeFiles/iter_closest_point.dir
-/home/omari/c++/pcl/build/CMakeFiles/resampling.dir
+/home/omari/c++/pcl_cpp_tests/build/CMakeFiles/alignment_prerejective.dir
+/home/omari/c++/pcl_cpp_tests/build/CMakeFiles/cloud_viewer.dir
+/home/omari/c++/pcl_cpp_tests/build/CMakeFiles/interactive_icp.dir
+/home/omari/c++/pcl_cpp_tests/build/CMakeFiles/iter_closest_point.dir
+/home/omari/c++/pcl_cpp_tests/build/CMakeFiles/resampling.dir

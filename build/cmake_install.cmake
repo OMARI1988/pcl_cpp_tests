@@ -1,4 +1,4 @@
-# Install script for directory: /home/omari/c++/pcl
+# Install script for directory: /home/omari/c++/pcl_cpp_tests
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/omari/c++/pcl/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/omari/c++/pcl_cpp_tests/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/omari/c++/pcl/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/omari/c++/pcl_cpp_tests/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

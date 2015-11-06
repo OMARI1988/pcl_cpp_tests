@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/omari/c++/pcl/alignment_prerejective.cpp
+/home/omari/c++/pcl_cpp_tests/alignment_prerejective.cpp
 Eigen/Core
 -
 pcl/point_types.h

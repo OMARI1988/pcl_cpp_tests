@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omari/c++/pcl
+CMAKE_SOURCE_DIR = /home/omari/c++/pcl_cpp_tests
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omari/c++/pcl/build
+CMAKE_BINARY_DIR = /home/omari/c++/pcl_cpp_tests/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/iter_closest_point.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/iter_closest_point.dir/flags.make
 
 CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.o: CMakeFiles/iter_closest_point.dir/flags.make
 CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.o: ../iter_closest_point.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl_cpp_tests/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.o -c /home/omari/c++/pcl/iter_closest_point.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.o -c /home/omari/c++/pcl_cpp_tests/iter_closest_point.cpp
 
 CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/omari/c++/pcl/iter_closest_point.cpp > CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/omari/c++/pcl_cpp_tests/iter_closest_point.cpp > CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.i
 
 CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/omari/c++/pcl/iter_closest_point.cpp -o CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/omari/c++/pcl_cpp_tests/iter_closest_point.cpp -o CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.s
 
 CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.o.requires:
 .PHONY : CMakeFiles/iter_closest_point.dir/iter_closest_point.cpp.o.requires
@@ -174,6 +174,6 @@ CMakeFiles/iter_closest_point.dir/clean:
 .PHONY : CMakeFiles/iter_closest_point.dir/clean
 
 CMakeFiles/iter_closest_point.dir/depend:
-	cd /home/omari/c++/pcl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omari/c++/pcl /home/omari/c++/pcl /home/omari/c++/pcl/build /home/omari/c++/pcl/build /home/omari/c++/pcl/build/CMakeFiles/iter_closest_point.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/omari/c++/pcl_cpp_tests/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omari/c++/pcl_cpp_tests /home/omari/c++/pcl_cpp_tests /home/omari/c++/pcl_cpp_tests/build /home/omari/c++/pcl_cpp_tests/build /home/omari/c++/pcl_cpp_tests/build/CMakeFiles/iter_closest_point.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/iter_closest_point.dir/depend
 

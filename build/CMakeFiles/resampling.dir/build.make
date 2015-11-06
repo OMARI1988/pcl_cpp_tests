@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omari/c++/pcl
+CMAKE_SOURCE_DIR = /home/omari/c++/pcl_cpp_tests
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omari/c++/pcl/build
+CMAKE_BINARY_DIR = /home/omari/c++/pcl_cpp_tests/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/resampling.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/resampling.dir/flags.make
 
 CMakeFiles/resampling.dir/resampling.cpp.o: CMakeFiles/resampling.dir/flags.make
 CMakeFiles/resampling.dir/resampling.cpp.o: ../resampling.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl_cpp_tests/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/resampling.dir/resampling.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/resampling.dir/resampling.cpp.o -c /home/omari/c++/pcl/resampling.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/resampling.dir/resampling.cpp.o -c /home/omari/c++/pcl_cpp_tests/resampling.cpp
 
 CMakeFiles/resampling.dir/resampling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/resampling.dir/resampling.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/omari/c++/pcl/resampling.cpp > CMakeFiles/resampling.dir/resampling.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/omari/c++/pcl_cpp_tests/resampling.cpp > CMakeFiles/resampling.dir/resampling.cpp.i
 
 CMakeFiles/resampling.dir/resampling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/resampling.dir/resampling.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/omari/c++/pcl/resampling.cpp -o CMakeFiles/resampling.dir/resampling.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/omari/c++/pcl_cpp_tests/resampling.cpp -o CMakeFiles/resampling.dir/resampling.cpp.s
 
 CMakeFiles/resampling.dir/resampling.cpp.o.requires:
 .PHONY : CMakeFiles/resampling.dir/resampling.cpp.o.requires
@@ -174,6 +174,6 @@ CMakeFiles/resampling.dir/clean:
 .PHONY : CMakeFiles/resampling.dir/clean
 
 CMakeFiles/resampling.dir/depend:
-	cd /home/omari/c++/pcl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omari/c++/pcl /home/omari/c++/pcl /home/omari/c++/pcl/build /home/omari/c++/pcl/build /home/omari/c++/pcl/build/CMakeFiles/resampling.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/omari/c++/pcl_cpp_tests/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omari/c++/pcl_cpp_tests /home/omari/c++/pcl_cpp_tests /home/omari/c++/pcl_cpp_tests/build /home/omari/c++/pcl_cpp_tests/build /home/omari/c++/pcl_cpp_tests/build/CMakeFiles/resampling.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/resampling.dir/depend
 

@@ -93,6 +93,10 @@ main (int argc,
      cloud_in->points[i].x -= X/cloud_in->points.size ();
      cloud_in->points[i].y -= Y/cloud_in->points.size ();
      cloud_in->points[i].z -= Z/cloud_in->points.size ();
+    //  cloud_in->points[i].x = float(int(cloud_in->points[i].x*200.0))/200.0; // every .5 cm
+    //  cloud_in->points[i].y = float(int(cloud_in->points[i].y*200.0))/200.0;
+    //  cloud_in->points[i].z = float(int(cloud_in->points[i].z*200.0))/200.0;
+     std::cout << "X" << cloud_in->points[i].x << std::endl;
   }
   X=0;
   Y=0;
@@ -108,6 +112,9 @@ main (int argc,
      cloud_icp->points[i].x -= X/cloud_icp->points.size ();
      cloud_icp->points[i].y -= Y/cloud_icp->points.size ();
      cloud_icp->points[i].z -= Z/cloud_icp->points.size ();
+    //  cloud_icp->points[i].x = float(int(cloud_icp->points[i].x*200.0))/200.0; // every .5 cm
+    //  cloud_icp->points[i].y = float(int(cloud_icp->points[i].y*200.0))/200.0;
+    //  cloud_icp->points[i].z = float(int(cloud_icp->points[i].z*200.0))/200.0;
   }
 
 

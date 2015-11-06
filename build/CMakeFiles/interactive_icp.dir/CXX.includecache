@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/omari/c++/pcl/interactive_icp.cpp
+/home/omari/c++/pcl_cpp_tests/interactive_icp.cpp
 iostream
 -
 string

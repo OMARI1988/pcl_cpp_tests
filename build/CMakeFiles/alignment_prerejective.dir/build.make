@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/omari/c++/pcl
+CMAKE_SOURCE_DIR = /home/omari/c++/pcl_cpp_tests
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/omari/c++/pcl/build
+CMAKE_BINARY_DIR = /home/omari/c++/pcl_cpp_tests/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/alignment_prerejective.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/alignment_prerejective.dir/flags.make
 
 CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.o: CMakeFiles/alignment_prerejective.dir/flags.make
 CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.o: ../alignment_prerejective.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/omari/c++/pcl_cpp_tests/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.o -c /home/omari/c++/pcl/alignment_prerejective.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.o -c /home/omari/c++/pcl_cpp_tests/alignment_prerejective.cpp
 
 CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/omari/c++/pcl/alignment_prerejective.cpp > CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/omari/c++/pcl_cpp_tests/alignment_prerejective.cpp > CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.i
 
 CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/omari/c++/pcl/alignment_prerejective.cpp -o CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/omari/c++/pcl_cpp_tests/alignment_prerejective.cpp -o CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.s
 
 CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.o.requires:
 .PHONY : CMakeFiles/alignment_prerejective.dir/alignment_prerejective.cpp.o.requires
@@ -174,6 +174,6 @@ CMakeFiles/alignment_prerejective.dir/clean:
 .PHONY : CMakeFiles/alignment_prerejective.dir/clean
 
 CMakeFiles/alignment_prerejective.dir/depend:
-	cd /home/omari/c++/pcl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omari/c++/pcl /home/omari/c++/pcl /home/omari/c++/pcl/build /home/omari/c++/pcl/build /home/omari/c++/pcl/build/CMakeFiles/alignment_prerejective.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/omari/c++/pcl_cpp_tests/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/omari/c++/pcl_cpp_tests /home/omari/c++/pcl_cpp_tests /home/omari/c++/pcl_cpp_tests/build /home/omari/c++/pcl_cpp_tests/build /home/omari/c++/pcl_cpp_tests/build/CMakeFiles/alignment_prerejective.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/alignment_prerejective.dir/depend
 

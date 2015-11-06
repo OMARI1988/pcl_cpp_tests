@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/omari/c++/pcl/resampling.cpp
+/home/omari/c++/pcl_cpp_tests/resampling.cpp
 pcl/point_types.h
 -
 pcl/io/pcd_io.h
