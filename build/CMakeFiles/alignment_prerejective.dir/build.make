@@ -89,7 +89,7 @@ alignment_prerejective: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 alignment_prerejective: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
 alignment_prerejective: /usr/lib/x86_64-linux-gnu/libpthread.so
 alignment_prerejective: /usr/lib/libpcl_common.so
-alignment_prerejective: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+alignment_prerejective: /usr/lib/libflann_cpp_s.a
 alignment_prerejective: /usr/lib/libpcl_kdtree.so
 alignment_prerejective: /usr/lib/libpcl_octree.so
 alignment_prerejective: /usr/lib/libpcl_search.so
@@ -122,7 +122,7 @@ alignment_prerejective: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
 alignment_prerejective: /usr/lib/x86_64-linux-gnu/libpthread.so
 alignment_prerejective: /usr/lib/x86_64-linux-gnu/libqhull.so
 alignment_prerejective: /usr/lib/libOpenNI.so
-alignment_prerejective: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+alignment_prerejective: /usr/lib/libflann_cpp_s.a
 alignment_prerejective: /usr/lib/libvtkCommon.so.5.8.0
 alignment_prerejective: /usr/lib/libvtkRendering.so.5.8.0
 alignment_prerejective: /usr/lib/libvtkHybrid.so.5.8.0

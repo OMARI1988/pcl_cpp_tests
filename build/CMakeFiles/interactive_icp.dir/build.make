@@ -89,7 +89,7 @@ interactive_icp: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 interactive_icp: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
 interactive_icp: /usr/lib/x86_64-linux-gnu/libpthread.so
 interactive_icp: /usr/lib/libpcl_common.so
-interactive_icp: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+interactive_icp: /usr/lib/libflann_cpp_s.a
 interactive_icp: /usr/lib/libpcl_kdtree.so
 interactive_icp: /usr/lib/libpcl_octree.so
 interactive_icp: /usr/lib/libpcl_search.so
@@ -122,7 +122,7 @@ interactive_icp: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
 interactive_icp: /usr/lib/x86_64-linux-gnu/libpthread.so
 interactive_icp: /usr/lib/x86_64-linux-gnu/libqhull.so
 interactive_icp: /usr/lib/libOpenNI.so
-interactive_icp: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+interactive_icp: /usr/lib/libflann_cpp_s.a
 interactive_icp: /usr/lib/libvtkCommon.so.5.8.0
 interactive_icp: /usr/lib/libvtkRendering.so.5.8.0
 interactive_icp: /usr/lib/libvtkHybrid.so.5.8.0

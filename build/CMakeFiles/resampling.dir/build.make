@@ -89,7 +89,7 @@ resampling: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 resampling: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
 resampling: /usr/lib/x86_64-linux-gnu/libpthread.so
 resampling: /usr/lib/libpcl_common.so
-resampling: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+resampling: /usr/lib/libflann_cpp_s.a
 resampling: /usr/lib/libpcl_kdtree.so
 resampling: /usr/lib/libpcl_octree.so
 resampling: /usr/lib/libpcl_search.so
@@ -122,7 +122,7 @@ resampling: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
 resampling: /usr/lib/x86_64-linux-gnu/libpthread.so
 resampling: /usr/lib/x86_64-linux-gnu/libqhull.so
 resampling: /usr/lib/libOpenNI.so
-resampling: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+resampling: /usr/lib/libflann_cpp_s.a
 resampling: /usr/lib/libvtkCommon.so.5.8.0
 resampling: /usr/lib/libvtkRendering.so.5.8.0
 resampling: /usr/lib/libvtkHybrid.so.5.8.0

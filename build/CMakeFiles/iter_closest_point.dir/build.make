@@ -89,7 +89,7 @@ iter_closest_point: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 iter_closest_point: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
 iter_closest_point: /usr/lib/x86_64-linux-gnu/libpthread.so
 iter_closest_point: /usr/lib/libpcl_common.so
-iter_closest_point: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+iter_closest_point: /usr/lib/libflann_cpp_s.a
 iter_closest_point: /usr/lib/libpcl_kdtree.so
 iter_closest_point: /usr/lib/libpcl_octree.so
 iter_closest_point: /usr/lib/libpcl_search.so
@@ -122,7 +122,7 @@ iter_closest_point: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
 iter_closest_point: /usr/lib/x86_64-linux-gnu/libpthread.so
 iter_closest_point: /usr/lib/x86_64-linux-gnu/libqhull.so
 iter_closest_point: /usr/lib/libOpenNI.so
-iter_closest_point: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+iter_closest_point: /usr/lib/libflann_cpp_s.a
 iter_closest_point: /usr/lib/libvtkCommon.so.5.8.0
 iter_closest_point: /usr/lib/libvtkRendering.so.5.8.0
 iter_closest_point: /usr/lib/libvtkHybrid.so.5.8.0

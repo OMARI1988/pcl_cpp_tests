@@ -89,7 +89,7 @@ cloud_viewer: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 cloud_viewer: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
 cloud_viewer: /usr/lib/x86_64-linux-gnu/libpthread.so
 cloud_viewer: /usr/lib/libpcl_common.so
-cloud_viewer: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+cloud_viewer: /usr/lib/libflann_cpp_s.a
 cloud_viewer: /usr/lib/libpcl_kdtree.so
 cloud_viewer: /usr/lib/libpcl_octree.so
 cloud_viewer: /usr/lib/libpcl_search.so
@@ -122,7 +122,7 @@ cloud_viewer: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
 cloud_viewer: /usr/lib/x86_64-linux-gnu/libpthread.so
 cloud_viewer: /usr/lib/x86_64-linux-gnu/libqhull.so
 cloud_viewer: /usr/lib/libOpenNI.so
-cloud_viewer: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+cloud_viewer: /usr/lib/libflann_cpp_s.a
 cloud_viewer: /usr/lib/libvtkCommon.so.5.8.0
 cloud_viewer: /usr/lib/libvtkRendering.so.5.8.0
 cloud_viewer: /usr/lib/libvtkHybrid.so.5.8.0

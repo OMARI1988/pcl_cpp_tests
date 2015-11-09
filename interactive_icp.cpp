@@ -210,6 +210,7 @@ main (int argc,
   viewer.registerKeyboardCallback (&keyboardEventOccurred, (void*) NULL);
 
   // Display the visualiser
+  int j=0;
   while (!viewer.wasStopped ())
   {
     viewer.spinOnce ();
@@ -235,6 +236,11 @@ main (int argc,
         std::string iterations_cnt = "ICP iterations = " + ss.str ();
         viewer.updateText (iterations_cnt, 10, 60, 16, txt_gray_lvl, txt_gray_lvl, txt_gray_lvl, "iterations_cnt");
         viewer.updatePointCloud (cloud_icp, cloud_icp_color_h, "cloud_icp_v2");
+        std::stringstream file;
+        file << "/home/omari/Datasets/Static_Scenes/alignment/"<< j <<".png";
+        j++;
+        std::cout << "saving " << file.str() << std::endl;
+        viewer.saveScreenshot(file.str());
       }
       else
       {
